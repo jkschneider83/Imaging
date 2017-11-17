@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>AFMobile</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>41464D6F62696C65</hex>
+			<name>AFMobile</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>false</protected>
+				<keyMaterial>#!#ResultsWithoutExcuses#!#</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+</WLANProfile>
